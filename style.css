@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url("feerique.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.cv-container {
+    display: flex;
+    max-width: 900px;
+    background-color:#591C21;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    width: 45%;
+    text-align: center;
+}
+
+.sidebar .photo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px dashed orangered;
+    margin-bottom: 40px;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.job-title {
+    font-size: 28px;
+    color: #D92525;
+    margin-bottom: 20px;
+}
+
+.section h3, .contact-info h3, .jauge h3 {
+    font-size: 18px;
+    margin-top: 20px;;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #D92525;
+    display: inline-block;
+}
+
+.profil h3 {
+    border-bottom: 1px solid #D92525;
+}
+
+.profile p, .contact-info p {
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.jauge p {
+    margin-bottom: 5px;
+    margin-top:20px;
+    font-size: 14px;
+}
+
+.jauge-bar {
+    background-color: #555555;
+    height: 5px;
+    margin-bottom: 10px;
+}
+
+.level {
+    height: 5px;
+}
+
+.level.html { 
+    width: 80%; 
+    background-color: #D92525; }
+
+.level.css { 
+    width: 75%; 
+    background-color: #D92525; 
+    }
+
+.level.js { 
+    width: 60%; 
+    background-color: #D92525; 
+
+}
+.level.photoshop { 
+    width: 90%; 
+    background-color: #D92525; 
+}
+
+.main-content {
+    padding: 20px;
+    width: 65%;
+}
+
+.section h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    color:#D92525
+}
+
+.timeline-item {
+    margin-bottom: 20px;
+}
+
+.timeline-item span {
+    font-size: 14px;
+    color: #888888;
+}
+
+.timeline-item h4 {
+    font-size: 20px;
+    color: black;
+    margin: 5px 0;
+}
+
+.timeline-item p {
+    font-size: 14px;
+    color: #555555;
+    line-height: 1.5;
+}
+
+.interests img {
+    width: 8%;
+    height: 8%;
+    /* row-gap: gap; */
+    gap:10%;
+}
